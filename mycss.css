@@ -551,4 +551,22 @@ footer table {
         width: 500px;
         height:auto;
     }
-    #img{
+    #img{        width: 100%;
+        height: auto;
+    }
+
+    .hs3 {
+        font-size: 70px;
+        align-items: center;
+
+
+    }
+
+    .hs2 {
+        font-size: 70px;
+        align-items: center;
+
+    }
+
+
+}
