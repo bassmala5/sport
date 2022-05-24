@@ -411,21 +411,12 @@ footer table {
                      width: 100%;
 
                   }
-                  .he2{
-                    color: rgb(70, 21, 60);
-                    border-radius: 30px;
-                    text-align: center;
-                    font-family: fantasy;
-                     font-weight: bold;
-                     font-size: 30px;
-                     padding: 10px;
-                     margin: 10px;
-                     display: block;
+          
                      color:  rgb(80, 21, 66);
-                     text-decoration: underline;
+                     text-decoration
+                }: underline;
                      text-decoration-color: #582850;
                      text-decoration-thickness: 5px;
-                }
                   .time {
                       margin: 20px;
                       padding: 20px;
@@ -561,25 +552,3 @@ footer table {
         height:auto;
     }
     #img{
-        width: 100%;
-        height: auto;
-    }
-   
-    .hs3{
-        font-size: 70px;
-        align-items: center;
-
-
-    }
-    .hs2{
-        font-size: 70px;
-        align-items: center;
-
-    }
-    
-    
-
-   
-   
-
-}
