@@ -1,0 +1,627 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(70, 21, 60);
+    border-radius: 20px;
+}
+
+.nav button {
+    padding: 10px;
+    background-color: rgb(70, 21, 60);
+    border: 10px;
+}
+
+.nav button a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav button:hover {
+    background-color: rgb(88, 55, 118);
+}
+
+/* start intro */
+.intro {
+    text-align: center;
+    background-image: url(sport3.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    justify-content: center;
+    background-position: center;
+    color: rgb(70, 21, 60);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.intro p {
+    font-family: fantasy;
+    padding: 10px;
+    margin-left: 10px;
+    border: 5px;
+    border-style: double;
+    border-radius: 40px;
+    width: fit-content;
+}
+
+
+
+
+/* gallary */
+
+.gallery button a {
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.g {
+    border-style: groove;
+    border-radius: 20px;
+    border: 20px;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+div.gallery {
+    margin: 5px;
+    /* border: 1px solid black; */
+    float: left;
+    width: 180px;
+    display: grid;
+    /* border-radius: 20px; */
+}
+
+div.gallery:hover {
+    border: 1px solid rgb(88, 55, 118);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    height: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #777;
+    color: rgb(70, 21, 60);
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+
+/* contactus */
+.contact {
+    display: block;
+}
+
+.me {
+    border-style: solid;
+    border-radius: 30px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+
+}
+
+#contact {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #582850;
+    color: rgb(70, 21, 60);
+
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.submit {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: auto;
+    background-color: rgb(126, 87, 162);
+}
+
+.submit:hover {
+    background-color: rgb(88, 55, 118);
+}
+
+
+/* footer */
+footer table {
+    clear: both;
+    min-height: 150px;
+    width: 100%;
+}
+
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(56, 11, 47);
+    color: #ccc;
+}
+
+footer th {
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+}
+
+.i {
+    width: 50px;
+    height: 50px;
+}
+
+.icon {
+    justify-content: space-between;
+
+}
+
+
+/* shopping */
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+
+
+
+
+}
+
+.shop div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.hs {
+    text-align: center;
+    color: rgb(56, 11, 47);
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    /* border-style: double; */
+    padding: 10px;
+    margin: 10px;
+    /* width: fit-content; */
+    display: block;
+    text-decoration: underline;
+    text-decoration-color: #582850;
+    text-decoration-thickness: 5px;
+}
+
+#women {
+    text-align: left;
+}
+
+
+div.sec img {
+    margin: 5px;
+    border: 10px solid rgb(180, 71, 204);
+    /* float: left; */
+    width: fit-content;
+    display: inline-block;
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+div.conv {
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+    /* border-style: solid; */
+    /* border-radius: 10px; */
+}
+
+span {
+    background-color: rgb(180, 71, 204);
+
+}
+
+.cont {
+    border-style: solid;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: rgb(197, 189, 189);
+
+
+}
+
+.conv button {
+    background-color: rgb(126, 87, 162);
+    border-radius: 10px;
+    color: white;
+    border-color: rgb(126, 87, 162);
+
+}
+
+/* order */
+.signin {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #582850;
+    color: rgb(70, 21, 60);
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* .active {
+                background-color:#582850;} */
+
+.contact {
+    border: rgb(195, 21, 137);
+    border-radius: 20px;
+
+
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+
+}
+
+input[type=Email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(126, 87, 162);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #582850;
+}
+
+.error {
+    color: red;
+    size: 80%
+}
+
+.hidden {
+    display: none
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sel {
+
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #582850;
+    color: rgb(70, 21, 60);
+
+}
+
+.swimsec {
+    border-style: dashed;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.check{
+    display: flex;
+   
+    justify-items: center;
+    border-style: solid;
+    border-width :1px;;
+    border-color: rgb(180, 177, 177);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+/* clothes */
+.shop img {
+    margin: 5px;
+    border: 10px solid rgb(180, 71, 204);
+    /* float: left; */
+    width: fit-content;
+    display: inline-block;
+    height: 100px;
+    border-radius: 20px;
+
+}
+
+/* about */
+.abou {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.abou img {
+    border-radius: 30px;
+    font-family: fantasy;
+    border-style: double;
+    width: 100%;
+
+}
+
+.he2 {
+    color: rgb(70, 21, 60);
+    border-radius: 30px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    color: rgb(80, 21, 66);
+    text-decoration: underline;
+    text-decoration-color: #582850;
+    text-decoration-thickness: 5px;
+}
+
+.time {
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: fit-content;
+    background-color: rgb(126, 87, 162);
+    justify-content: space-between;
+    border-radius: 30px;
+    align-content: center;
+
+}
+
+.ai img {
+    border-style: dotted;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.hs2 {
+    /* background-image:url(sport2.jpg) ; */
+
+    border-radius: 30px;
+
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    border-style: double;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    display: block;
+    color: rgb(80, 21, 66);
+
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: #582850;
+    text-decoration-thickness: 5px;
+    background-color: white;
+
+}
+
+
+
+
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 40px;
+
+
+
+}
+
+.about2.he {
+    font-weight: bold;
+    font-size: 10px;
+
+
+}
+
+.about2 button {
+    text-decoration: none;
+    background-color: white;
+    border-color: white;
+}
+
+.about2 button a {
+    text-decoration: none;
+
+}
+
+button #lor {
+    color: rgb(64, 63, 63);
+}
+
+
+
+
+
+
+@media screen and (max-width:463px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .nav button {
+        width: 80%;
+
+    }
+
+    .intro p img {
+        width: 50px;
+        height: 50px;
+        float: right;
+        border-radius: 20px;
+        border-style: solid;
+    }
+
+
+
+}
+
+/* lma el4A4 tkon kbera  */
+@media screen and (min-width:464px) {
+
+   
+    div.swim img {
+
+        width: 500px;
+        height: 500px;
+    }
+
+    div.conv {
+        padding: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .time {
+        justify-content: space-between;
+        width: 500px;
+        height: auto;
+    }
+
+    #img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hs3 {
+        font-size: 70px;
+        align-items: center;
+
+
+    }
+
+    .hs2 {
+        font-size: 70px;
+        align-items: center;
+
+    }
+
+
+}
