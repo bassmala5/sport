@@ -4,7 +4,7 @@ function check() {
   var phone = document.getElementById("phone").value;
   var name1 = document.getElementById("fname").value;
   var name2 = document.getElementById("lname").value;
-  var emaile= document.getElementById("email").value;
+  
 
   if(!isNaN(name1)){
     document.getElementById('fname_error').classList.remove('hidden');
